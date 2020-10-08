@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <form action="#" method="POST">
+            <div>
+                <p>Имя</p>
+                <input type="text" name="user" placeholder="Имя" >
+            </div>
+            <div>
+                <p>Телефон</p>
+                <input type="tel" name="tel" placeholder="Телефон" >
+            </div>
+            <div>
+                <p>Email</p>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+
+            <div>
+                <label for="country">Выберите страну проживания</label>
+                    <select name="country" id="country" >
+                        <option value="russia">Россия</option>
+                        <option value="belarus">Беларусь</option>
+                    </select>
+            </div>
+            
+            <div>
+                <p>Укажите пол</p>
+                <p><input type="radio" name="gender" value="male" />Мужской</p>
+                <p><input type="radio" name="gender" value="female" />Женский</p>
+            </div>
+
+            <div>
+                <p>Введите пожелания</p>
+                <textarea name="pozh" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
